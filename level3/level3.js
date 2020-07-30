@@ -38,7 +38,7 @@ class Calendar {
    
  };
  
- 
+  
  getAppointmentById(id)
  {
 	var obj = JSON.parse(myobj);
@@ -95,7 +95,9 @@ class Calendar {
 			 app.push(obj.Appointments[i])
 	         
 			 }
-	 }   
+	 }  
+
+ return app;	 
   }
  
   
